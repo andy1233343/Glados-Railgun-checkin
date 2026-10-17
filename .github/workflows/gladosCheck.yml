@@ -9,7 +9,8 @@ on:
       - 'imgs/**'
   schedule:
     - cron: '18 1,4 * * *'      
-
+      # scheduler wake-up ping 2026-10-17 (no functional change)
+      
 jobs:
   build:
     name: glados/railgun checkin
